@@ -1,0 +1,426 @@
+{
+   "CHECK_MOUTH" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "examined",
+            "xAPIObject" : "airway"
+         },
+         {
+            "xAPIVerb"   : "reexamined",
+            "xAPIObject" : "airway"
+         }
+      ]
+   },
+   "LOOK_LISTEN_FEEL_CHEST" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "observed",
+            "xAPIObject" : "breathing"
+         },
+         {
+            "xAPIVerb"   : "observed",
+            "xAPIObject" : "chest"
+         },
+         {
+            "xAPIVerb"   : "observed",
+            "xAPIObject" : "chest wall"
+         },
+         {
+            "xAPIVerb"   : "reexamined",
+            "xAPIObject" : "airway"
+         }
+      ]
+   },
+   "CONNECT_PULSE_OX" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "applied",
+            "xAPIObject" : "pulse OX monitor"
+         },
+         {
+            "xAPIVerb"   : "attached",
+            "xAPIObject" : "pulse OX monitor"
+         }
+      ]
+   },
+   "TAKE_PULSE" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "observed",
+            "xAPIObject" : "pulse"
+         },
+         {
+            "xAPIVerb"   : "reeaxmine",
+            "xAPIObject" : "vitals"
+         }
+      ]
+   },
+   "APPLY_BP_CUFF" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "applied",
+            "xAPIObject" : "BP cuff"
+         }
+      ]
+   },
+   "TAKE_BP" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "examined",
+            "xAPIObject" : "blood pressure"
+         },
+         {
+            "xAPIVerb"   : "observed",
+            "xAPIObject" : "blood pressure"
+         },
+         {
+            "xAPIVerb"   : "reeaxmine",
+            "xAPIObject" : "vitals"
+         }
+      ]
+   },
+   "CHECK_GCS" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "observed",
+            "xAPIObject" : "level of conciousness"
+         }
+      ]
+   },
+   "BLOOD_CULTURES" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "examined",
+            "xAPIObject" : "blood glucose level"
+         }
+      ]
+   },
+   "HYPERVENTILATE" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "applied",
+            "xAPIObject" : "BVM w/ O2"
+         },
+         {
+            "xAPIVerb"   : "applied",
+            "xAPIObject" : "BVM w/ HEPA"
+         },
+         {
+            "xAPIVerb"   : "applied",
+            "xAPIObject" : "BVM"
+         }
+      ]
+   },
+   "ASSIST_VENTILATION" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "applied",
+            "xAPIObject" : "BVM w/ O2"
+         },
+         {
+            "xAPIVerb"   : "applied",
+            "xAPIObject" : "BVM w/ HEPA"
+         },
+         {
+            "xAPIVerb"   : "applied",
+            "xAPIObject" : "BVM"
+         },
+         {
+            "xAPIVerb"   : "reeaxmined",
+            "xAPIObject" : "airway"
+         }
+      ]
+   },
+   "MASK_HOOK_TO_WALL_O2" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "applied",
+            "xAPIObject" : "BVM w/ O2"
+         },
+         {
+            "xAPIVerb"   : "applied",
+            "xAPIObject" : "EtCO2 sensor"
+         },
+         {
+            "xAPIVerb"   : "administered",
+            "xAPIObject" : "O2"
+         }
+      ]
+   },
+   "MASK_INSERT_NASAL_AW" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "applied",
+            "xAPIObject" : "OPA/NPA"
+         },
+         {
+            "xAPIVerb"   : "opened",
+            "xAPIObject" : "airway"
+         }
+      ]
+   },
+   "MASK_INSERT_ORAL_AW" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "applied",
+            "xAPIObject" : "OPA/NPA"
+         },
+         {
+            "xAPIVerb"   : "opened",
+            "xAPIObject" : "airway"
+         }
+      ]
+   },
+   "DO_CRICOTHYROIDOTOMY" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "performed",
+            "xAPIObject" : "Cric"
+         }
+      ]
+   },
+   "CHECK_ETT" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "verified",
+            "xAPIObject" : "ETT placement"
+         }
+      ]
+   },
+   "TAKE_SPO2" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "reeaxmine",
+            "xAPIObject" : "vitals"
+         },
+         {
+            "xAPIVerb"   : "observed",
+            "xAPIObject" : "SPO2 level"
+         }
+      ]
+   },
+   "LISTEN_TO_BREATHING" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "reeaxmine",
+            "xAPIObject" : "vitals"
+         },
+         {
+            "xAPIVerb"   : "observed",
+            "xAPIObject" : "respiratory rate"
+         },
+         {
+            "xAPIVerb"   : "examined",
+            "xAPIObject" : "lung sounds"
+         }
+      ]
+   },
+   "CONNECT_TO_ECG" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "applied",
+            "xAPIObject" : "ECG leads"
+         }
+      ]
+   },
+   "HEAD_FEEL_SKIN" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "applied",
+            "xAPIObject" : "skin"
+         },
+         {
+            "xAPIVerb"   : "observed",
+            "xAPIObject" : "skin"
+         }
+      ]
+   },
+   "SUPINE_POSITION" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "positioned",
+            "xAPIObject" : "supine"
+         }
+      ]
+   },
+   "APPLY_CPAP" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "applied",
+            "xAPIObject" : "CPAP"
+         }
+      ]
+   },
+   "XXX_GIVE_MEDS_ADRENALINE_EPINEPHRINE_XXX" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "administered",
+            "xAPIObject" : "IM epi"
+         }
+      ]
+   },
+   "INSERT_NASAL_CANNULA" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "applied",
+            "xAPIObject" : "nasal cannula"
+         },
+         {
+            "xAPIVerb"   : "administered",
+            "xAPIObject" : "o2"
+         }
+      ]
+   },
+   "ARM_R_IV_CATH" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "administered",
+            "xAPIObject" : "IV"
+         }
+      ]
+   },
+   "ARM_GIVE_MEDS_SEDATIVE_PARALYTIC_KETAMINE_100MG" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "administered",
+            "xAPIObject" : "sedative"
+         }
+      ]
+   },
+   "ARM_GIVE_MEDS_SEDATIVE_PARALYTIC_SUCCINYLCHOLINE_70MG" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "administered",
+            "xAPIObject" : "paralytic"
+         }
+      ]
+   },
+   "MASK_TAPE_VENTILATE_ET_TUBE" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "performed",
+            "xAPIObject" : "laryngoscopy"
+         }
+      ]
+   },
+   "INLINE_MDI" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "administered",
+            "xAPIObject" : "MDI"
+         }
+      ]
+   },
+   "NEBULIZER_INHALER" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "administered",
+            "xAPIObject" : "nebulizer"
+         }
+      ]
+   },
+   "XXX_GIVE_MEDS_BRONCHODILATOR_ALBUTEROL_XXX" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "administered",
+            "xAPIObject" : "bronchodilator"
+         }
+      ]
+   },
+   "CHECK_PUPILS" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "observed",
+            "xAPIObject" : "pupils"
+         }
+      ]
+   },
+   "CHECK_NECK" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "observed",
+            "xAPIObject" : "jugular vein"
+         }
+      ]
+   },
+   "CHECK_TRACHEA" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "examined",
+            "xAPIObject" : "trachea"
+         }
+      ]
+   },
+   "CHECK_HEAD" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "examined",
+            "xAPIObject" : "head"
+         }
+      ]
+   },
+   "PRECUSS_CHEST" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "examined",
+            "xAPIObject" : "chest"
+         }
+      ]
+   },
+   "PALPATE_CHEST" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "examined",
+            "xAPIObject" : "chest"
+         }
+      ]
+   },
+   "NEEDLE_D_L" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "inserted",
+            "xAPIObject" : "NCD needle"
+         }
+      ]
+   },
+   "HEAD_TILT_CHINLIFT" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "opened",
+            "xAPIObject" : "airway"
+         }
+      ]
+   },
+   "JAW_THRUST" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "opened",
+            "xAPIObject" : "airway"
+         }
+      ]
+   },
+   "SUCTION_MOUTH" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "opened",
+            "xAPIObject" : "airway"
+         }
+      ]
+   },
+   "CHECK_IV_DRUG_USE" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "examined",
+            "xAPIObject" : "iv drug use"
+         }
+      ]
+   },
+   "XXX_GIVE_MEDS_NARCOTICS_NALOXONE_XXX" : {
+      "parings" : [
+         {
+            "xAPIVerb"   : "administered",
+            "xAPIObject" : "naloxone"
+         }
+      ]
+   }
+}

@@ -1,0 +1,16 @@
+{
+   "LrsHost" : "",
+   "LrsXapiEndpoint" : "/data/xAPI/statements",
+   "LrsUser" : "",
+   "LrsPswd" : "",
+
+   "AmmTcpBridgeAddress" : "127.0.0.1:9015",
+   "AmmRenderModTypeBlackList" : [
+      "START_OF_INHALE",
+      "START_OF_EXHALE",
+      "PATIENT_STATE_IRREVERSIBLE",
+      "ATTACH_TO_PATIENT_IMPACT",
+      "CHECK_RESULTS:POCT",
+      "PATIENT_PARALYZED"
+   ]
+}
