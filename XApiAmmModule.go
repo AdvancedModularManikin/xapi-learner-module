@@ -271,6 +271,7 @@ func checkRendermodXapiParings(rendermodType string) (verb, object string) {
 func generateXapi(actorName, objectName, verbName, value, timestamp string) string {
 
 	bSuccess := "false"
+	bCompletion := "false"
 
 	if actorName == "" {
 		actorName = "System"
@@ -286,6 +287,7 @@ func generateXapi(actorName, objectName, verbName, value, timestamp string) stri
 
 	if value == "Success" {
 		bSuccess = "true"
+		bCompletion = "true"
 	} else {
 		bSuccess = "false"
 	}
@@ -311,7 +313,7 @@ func generateXapi(actorName, objectName, verbName, value, timestamp string) stri
          }
       },
 	  "result": {
-		 "completion" : true,
+		 "completion" : ` + bCompletion + `,
 		 "response"	  : "` + value + `",
 		 "success"    : ` + bSuccess + `
 	  },
